@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include <iostream>
-#include <assert.h>
 
 using namespace std;
 static const int ArrayCount = 5;
@@ -114,4 +113,10 @@ void NoArrayPolymorphismForVirtual()
     {
         cout<<daaray[i].cc<<", ";
     }
+}
+
+void NoArrayPolymorphismExample()
+{
+    NoArrayPolymorphismForNoVirtual();
+    NoArrayPolymorphismForVirtual();
 }

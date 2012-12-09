@@ -3,14 +3,20 @@
 
 #include "stdafx.h"
 #include "NoArrayPolymorphism.h"
+#include "ExceptionArgument.h"
+
+void NoArrayPolymorphismExample();
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    NoArrayPolymorphismForNoVirtual();
-    NoArrayPolymorphismForVirtual();
+
+    ExceptionArgumentExample();
+    //NoArrayPolymorphismExample();
+
 	return 0;
 }
+
 
