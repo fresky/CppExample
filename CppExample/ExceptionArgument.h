@@ -84,6 +84,7 @@ void CatchBasePointer(bool throwbase)
         e->PrintMessage();
     }
 }
+
 void CatchSubPointer(bool throwbase)
 {
     cout<<"==================="<<endl<<"CatchSubPointer "<<(throwbase?"ThrowBase":"ThrowSub")<<endl;
@@ -92,6 +93,20 @@ void CatchSubPointer(bool throwbase)
         throwbase? throw &BaseException(): throw &SubException();
     }
     catch (SubException* e)
+    {
+        e->PrintMessage();
+    }
+}
+
+void CatchBasePointerThrowStaticSub()
+{
+    cout<<"==================="<<endl<<"CatchBasePointerThrowStaticSub "<<endl;
+    try
+    {
+        static SubException s;
+        throw &s;
+    }
+    catch (BaseException* e)
     {
         e->PrintMessage();
     }
@@ -156,6 +171,8 @@ void ExceptionArgumentExample()
     //CatchSubPointer(true); // this will not catch the exception
     CatchSubPointer(false);
     
+    CatchBasePointerThrowStaticSub();
+
     CatchBaseObjectForThrowSubAndThrowAgain();
     //CatchBaseObjectForThrowSubAndThrowItAgain();//this will not catch the exception
 }
