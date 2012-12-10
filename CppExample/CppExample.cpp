@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "NoArrayPolymorphism.h"
 #include "ExceptionArgument.h"
+#include "CopyAndSwap.h"
 
 void NoArrayPolymorphismExample();
 
@@ -12,8 +13,8 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-
-    ExceptionArgumentExample();
+    DynamicArrayExample();
+    //ExceptionArgumentExample();
     //NoArrayPolymorphismExample();
 
 	return 0;

@@ -4,6 +4,9 @@ CppExample
 Code samples during the cpp journey.
 
 
+2012/12/10: Copy-And-Swap idiom example
+-
+
 2012/12/10: Overload example
 -
 
