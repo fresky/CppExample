@@ -7,6 +7,7 @@
 #include "CopyAndSwap.h"
 #include "MacroExample.h"
 #include "ConstructorExample.h"
+#include "Warning.h"
 
 void NoArrayPolymorphismExample();
 
