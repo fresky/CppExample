@@ -1,20 +1,15 @@
 CppExample
 ==========
 
-Code samples during the cpp journey.
+This project contains code samples during the cpp journey.
 
+## License
 
-2012/12/10: Copy-And-Swap idiom example
--
+CppExample is released under the MIT License. See the bundled LICENSE file for details.
 
-2012/12/10: Overload example
--
-
-2012/12/10: Make class can NOT be derived example
--
-
-2012/12/9: Catch Exception by object/reference/pointer example
--
-
-2012/12/9: Never treat arrays polymorphically example
--
+## Change Log
+1. 12/10/2012: Copy-And-Swap idiom example
+1. 12/10/2012: Overload example
+1. 12/10/2012: Make class can NOT be derived example
+1. 12/09/2012: Catch Exception by object/reference/pointer example
+1. 12/09/2012: Never treat arrays polymorphically example
