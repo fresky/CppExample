@@ -80,6 +80,7 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ConstructorExample.h" />
     <ClInclude Include="CopyAndSwap.h" />
     <ClInclude Include="ExceptionArgument.h" />
     <ClInclude Include="MacroExample.h" />
