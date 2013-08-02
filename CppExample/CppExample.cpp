@@ -8,15 +8,18 @@
 #include "MacroExample.h"
 #include "ConstructorExample.h"
 #include "Warning.h"
+#include "OverloadTrap.h"
+#include "VirtualMethodExample.h"
 
-void NoArrayPolymorphismExample();
+
 
 using namespace std;
 
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    ConstructorExample();
+    VirtualMethodExample();
+    //ConstructorExample();
     //MacroExample();
     //CopyAndSwapExample();
     //ExceptionArgumentExample();

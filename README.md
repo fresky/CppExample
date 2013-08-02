@@ -8,6 +8,7 @@ This project contains code samples during the cpp journey.
 CppExample is released under the MIT License. See the bundled LICENSE file for details.
 
 ## Change Log
+1. 08/02/2013: Call virtual method in ctro Example
 1. 08/02/2013: Warning Example
 1. 08/02/2013: Constructor Example
 1. 08/02/2013: Macro Example
