@@ -5,6 +5,7 @@
 #include "NoArrayPolymorphism.h"
 #include "ExceptionArgument.h"
 #include "CopyAndSwap.h"
+#include "MacroExample.h"
 
 void NoArrayPolymorphismExample();
 
@@ -13,7 +14,8 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    DynamicArrayExample();
+    MacroExample();
+    //CopyAndSwapExample();
     //ExceptionArgumentExample();
     //NoArrayPolymorphismExample();
 

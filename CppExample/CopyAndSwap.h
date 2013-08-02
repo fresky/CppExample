@@ -35,7 +35,7 @@ private:
     int* m_Array;
 };
 
-void DynamicArrayExample()
+void CopyAndSwapExample()
 {
     DynamicArray d1;
     DynamicArray d2(d1);

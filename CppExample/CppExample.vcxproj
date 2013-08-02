@@ -82,6 +82,7 @@
   <ItemGroup>
     <ClInclude Include="CopyAndSwap.h" />
     <ClInclude Include="ExceptionArgument.h" />
+    <ClInclude Include="MacroExample.h" />
     <ClInclude Include="NoArrayPolymorphism.h" />
     <ClInclude Include="NoDeriveBase.h" />
     <ClInclude Include="OverloadTrap.h" />
