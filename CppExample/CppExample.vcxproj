@@ -82,6 +82,7 @@
   <ItemGroup>
     <ClInclude Include="ConstructorExample.h" />
     <ClInclude Include="CopyAndSwap.h" />
+    <ClInclude Include="DefaultParameter.h" />
     <ClInclude Include="ExceptionArgument.h" />
     <ClInclude Include="MacroExample.h" />
     <ClInclude Include="NoArrayPolymorphism.h" />

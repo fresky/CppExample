@@ -10,6 +10,7 @@
 #include "Warning.h"
 #include "OverloadTrap.h"
 #include "VirtualMethodExample.h"
+#include "DefaultParameter.h"
 
 
 
@@ -18,7 +19,8 @@ using namespace std;
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-    VirtualMethodExample();
+    DefaultParameter();
+    //VirtualMethodExample();
     //ConstructorExample();
     //MacroExample();
     //CopyAndSwapExample();
